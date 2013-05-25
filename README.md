@@ -16,7 +16,7 @@ The application manages Film Festivals. The admin user can create voting of film
 
 All you need is a running MySQL service in order to run the application
 
-- Import the sql script (`pf04.sql`, found in the `sql` folder) into the MySQL database usign phpMyAdmin or MySQL Workbench.
+- Import the sql script (`pf04.sql`, found in the `src\sql` folder) into the MySQL database usign phpMyAdmin or MySQL Workbench.
 - Adjust the username, password, url in `bd.properties` file, to match your MySQL configuration. The `bd.properties` file is located in `dao` package (src folder).
 - Compile and run! You should see the login screen. In order to access to the different application areas, you should login as users with different roles. Here are the default users:
 
