@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="diagrama" size="5285,4745" id="" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020666573746976616C63696E652F527562656E">
+  <children xsi:type="editmodel:ClassEditModel" name="ErrorApp" location="920,4094" size="142,225" id="controlErrores/ErrorApp" runTimeClassModel="getMsg(),ErrorApp(),ErrorApp(Ljava.lang.String;),ErrorApp(Ljava.lang.String;Ljava.lang.Exception;),setException(Ljava.lang.Exception;),exception,setMsg(Ljava.lang.String;),msg,getException()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="exception" id="controlErrores/ErrorApp#exception"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="msg" id="controlErrores/ErrorApp#msg"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,126">
+      <children xsi:type="editmodel:MethodEditModel" name="ErrorApp" id="controlErrores/ErrorApp#ErrorApp()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ErrorApp" id="controlErrores/ErrorApp#ErrorApp(Ljava.lang.String;Ljava.lang.Exception;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ErrorApp" id="controlErrores/ErrorApp#ErrorApp(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getException" id="controlErrores/ErrorApp#getException()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMsg" id="controlErrores/ErrorApp#getMsg()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setException" id="controlErrores/ErrorApp#setException(Ljava.lang.Exception;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMsg" id="controlErrores/ErrorApp#setMsg(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BeanDAO" location="497,4094" size="146,261" id="dao/BeanDAO" runTimeClassModel="baseDatos,conexion,BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),usuario,close(),BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),driver,BeanDAO(),clave,urlBase">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="baseDatos" id="dao/BeanDAO#baseDatos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="clave" id="dao/BeanDAO#clave"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="conexion" id="dao/BeanDAO#conexion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="driver" id="dao/BeanDAO#driver"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="urlBase" id="dao/BeanDAO#urlBase"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuario" id="dao/BeanDAO#usuario"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,90">
+      <children xsi:type="editmodel:MethodEditModel" name="BeanDAO" id="dao/BeanDAO#BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BeanDAO" id="dao/BeanDAO#BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BeanDAO" id="dao/BeanDAO#BeanDAO(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BeanDAO" id="dao/BeanDAO#BeanDAO()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" id="dao/BeanDAO#close()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="datos" location="887,4644" size="80,60" id="datos"/>
+  <children xsi:type="editmodel:EnumerationEditModel" name="ETipoUsuario" location="1191,4405" size="126,121" id="datos/ETipoUsuario">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,54">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="administrador" id="datos/ETipoUsuario#administrador%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="espectador" id="datos/ETipoUsuario#espectador%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="jurado" id="datos/ETipoUsuario#jurado%"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AppController" location="288,4094" size="159,243" id="proceso/AppController" runTimeClassModel="AppController(),setUsuarioActual(Ldatos.Usuario;),setCapaDAO(Ldao.IFestivalDAO;),getCapaDAO(),getMainView(),mainView,usuarioActual,getUsuarioActual(),isAdmin(),capaDAO">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="capaDAO" id="proceso/AppController#capaDAO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mainView" id="proceso/AppController#mainView"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuarioActual" id="proceso/AppController#usuarioActual"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,126">
+      <children xsi:type="editmodel:MethodEditModel" name="AppController" id="proceso/AppController#AppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCapaDAO" id="proceso/AppController#getCapaDAO()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMainView" id="proceso/AppController#getMainView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarioActual" id="proceso/AppController#getUsuarioActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAdmin" id="proceso/AppController#isAdmin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCapaDAO" id="proceso/AppController#setCapaDAO(Ldao.IFestivalDAO;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuarioActual" id="proceso/AppController#setUsuarioActual(Ldatos.Usuario;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="762,4644" size="75,81" id="proceso/Main" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="proceso/Main#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="swing.components" location="236,4644" size="153,60" id="swing.components"/>
+  <children xsi:type="editmodel:ClassEditModel" name="FestivalLabel" location="50,4405" size="135,189" id="swing.components/FestivalLabel" runTimeClassModel="FestivalLabel(Ljava.lang.String;Ljava.awt.Color;F),paintComponent(Ljava.awt.Graphics;),FestivalLabel(Ljava.lang.String;Ljava.awt.Color;),getPreferredSize(),setRightShadow(IILjava.awt.Color;),FestivalLabel(Ljava.lang.String;),setLeftShadow(IILjava.awt.Color;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalLabel" id="swing.components/FestivalLabel#FestivalLabel(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalLabel" id="swing.components/FestivalLabel#FestivalLabel(Ljava.lang.String;Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalLabel" id="swing.components/FestivalLabel#FestivalLabel(Ljava.lang.String;Ljava.awt.Color;F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPreferredSize" id="swing.components/FestivalLabel#getPreferredSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="swing.components/FestivalLabel#paintComponent(Ljava.awt.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLeftShadow" id="swing.components/FestivalLabel#setLeftShadow(IILjava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRightShadow" id="swing.components/FestivalLabel#setRightShadow(IILjava.awt.Color;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="JLinkButton" location="531,3333" size="165,711" id="swing.components/JLinkButton" runTimeClassModel="JLinkButton(Ljava.lang.String;),getLinkColor(),setLinkVisited(Z),getLinkURL(),linkBehavior,setVisitedLinkColor(Ljava.awt.Color;),JLinkButton(Ljava.lang.String;Ljava.net.URL;),aLWAYS_UNDERLINE,nEVER_UNDERLINE,getDisabledLinkColor(),isLinkVisited(),disabledLinkColor,getUIClassID(),JLinkButton(Ljavax.swing.Action;),linkColor,setDisabledLinkColor(Ljava.awt.Color;),defaultAction,setLinkBehavior(I),setLinkURL(Ljava.net.URL;),visitedLinkColor,getVisitedLinkColor(),JLinkButton(),JLinkButton(Ljava.net.URL;),JLinkButton(Ljavax.swing.Icon;Ljava.net.URL;),JLinkButton(Ljavax.swing.Icon;),isLinkVisited,JLinkButton(Ljava.lang.String;Ljavax.swing.Icon;Ljava.net.URL;),hOVER_UNDERLINE,updateUI(),setDefaultAction(Ljavax.swing.Action;),setLinkColor(Ljava.awt.Color;),getActiveLinkColor(),getDefaultAction(),sYSTEM_DEFAULT,setActiveLinkColor(Ljava.awt.Color;),getLinkBehavior()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="aLWAYS_UNDERLINE" id="swing.components/JLinkButton#aLWAYS_UNDERLINE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="defaultAction" id="swing.components/JLinkButton#defaultAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="disabledLinkColor" id="swing.components/JLinkButton#disabledLinkColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hOVER_UNDERLINE" id="swing.components/JLinkButton#hOVER_UNDERLINE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isLinkVisited" id="swing.components/JLinkButton#isLinkVisited"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="linkBehavior" id="swing.components/JLinkButton#linkBehavior"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="linkColor" id="swing.components/JLinkButton#linkColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nEVER_UNDERLINE" id="swing.components/JLinkButton#nEVER_UNDERLINE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sYSTEM_DEFAULT" id="swing.components/JLinkButton#sYSTEM_DEFAULT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="visitedLinkColor" id="swing.components/JLinkButton#visitedLinkColor"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,468">
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljavax.swing.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljava.lang.String;Ljavax.swing.Icon;Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljava.lang.String;Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljavax.swing.Icon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljavax.swing.Icon;Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="JLinkButton" id="swing.components/JLinkButton#JLinkButton(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActiveLinkColor" id="swing.components/JLinkButton#getActiveLinkColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDefaultAction" id="swing.components/JLinkButton#getDefaultAction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDisabledLinkColor" id="swing.components/JLinkButton#getDisabledLinkColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLinkBehavior" id="swing.components/JLinkButton#getLinkBehavior()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLinkColor" id="swing.components/JLinkButton#getLinkColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLinkURL" id="swing.components/JLinkButton#getLinkURL()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUIClassID" id="swing.components/JLinkButton#getUIClassID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVisitedLinkColor" id="swing.components/JLinkButton#getVisitedLinkColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isLinkVisited" id="swing.components/JLinkButton#isLinkVisited()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setActiveLinkColor" id="swing.components/JLinkButton#setActiveLinkColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDefaultAction" id="swing.components/JLinkButton#setDefaultAction(Ljavax.swing.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDisabledLinkColor" id="swing.components/JLinkButton#setDisabledLinkColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLinkBehavior" id="swing.components/JLinkButton#setLinkBehavior(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLinkColor" id="swing.components/JLinkButton#setLinkColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLinkURL" id="swing.components/JLinkButton#setLinkURL(Ljava.net.URL;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLinkVisited" id="swing.components/JLinkButton#setLinkVisited(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVisitedLinkColor" id="swing.components/JLinkButton#setVisitedLinkColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateUI" id="swing.components/JLinkButton#updateUI()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MiscUtilities" location="50,4644" size="136,81" id="swing.editors/MiscUtilities" runTimeClassModel="ArrayListToString(Ljava.util.ArrayList;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ArrayListToString" id="swing.editors/MiscUtilities#ArrayListToString(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VotacionCellEditor" location="235,4405" size="191,117" id="swing.editors/VotacionCellEditor" runTimeClassModel="getCellEditorValue(),VotacionCellEditor(),getTableCellEditorComponent(Ljavax.swing.JTable;Ljava.lang.Object;ZII)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,54">
+      <children xsi:type="editmodel:MethodEditModel" name="VotacionCellEditor" id="swing.editors/VotacionCellEditor#VotacionCellEditor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellEditorValue" id="swing.editors/VotacionCellEditor#getCellEditorValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTableCellEditorComponent" id="swing.editors/VotacionCellEditor#getTableCellEditorComponent(Ljavax.swing.JTable;Ljava.lang.Object;ZII)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FormChangeEventHandler" location="746,3333" size="237,243" id="swing.eventos/FormChangeEventHandler" runTimeClassModel="getValue(),isNeedsUpdate(),setSource(Lswing.forms.IFormOf;),source,setValue(LT;),value,setNeedsUpdate(Z),needsUpdate,FormChangeEventHandler(Lswing.forms.IFormOf;LT;Z),getSource()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="needsUpdate" id="swing.eventos/FormChangeEventHandler#needsUpdate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="source" id="swing.eventos/FormChangeEventHandler#source"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="swing.eventos/FormChangeEventHandler#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FormChangeEventHandler" id="swing.eventos/FormChangeEventHandler#FormChangeEventHandler(Lswing.forms.IFormOf;LT;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSource" id="swing.eventos/FormChangeEventHandler#getSource()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.eventos/FormChangeEventHandler#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isNeedsUpdate" id="swing.eventos/FormChangeEventHandler#isNeedsUpdate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNeedsUpdate" id="swing.eventos/FormChangeEventHandler#setNeedsUpdate(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSource" id="swing.eventos/FormChangeEventHandler#setSource(Lswing.forms.IFormOf;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.eventos/FormChangeEventHandler#setValue(LT;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" name="FormChangeListener" location="652,4405" size="203,95" id="swing.eventos/FormChangeListener" runTimeClassModel="FormChanged(Lswing.eventos.FormChangeEventHandler;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,18">
+      <children xsi:type="editmodel:MethodEditModel" name="FormChanged" id="swing.eventos/FormChangeListener#FormChanged(Lswing.eventos.FormChangeEventHandler;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="swing.forms" location="601,4644" size="111,60" id="swing.forms"/>
+  <children xsi:type="editmodel:ClassEditModel" name="FormUtilities" location="1367,4405" size="125,117" id="swing.forms/FormUtilities" runTimeClassModel="isValidLetraDNI(Ldatos.Dni;),fixForm(Ljavax.swing.JComponent;),isValidDni(Ldatos.Dni;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,54">
+      <children xsi:type="editmodel:MethodEditModel" name="fixForm" id="swing.forms/FormUtilities#fixForm(Ljavax.swing.JComponent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValidDni" id="swing.forms/FormUtilities#isValidDni(Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValidLetraDNI" id="swing.forms/FormUtilities#isValidLetraDNI(Ldatos.Dni;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LoginBean" location="476,4405" size="126,171" id="swing.forms/LoginBean" runTimeClassModel="nombre,getPassword(),setPassword(Ljava.lang.String;),setNombre(Ljava.lang.String;),getNombre(),password">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="swing.forms/LoginBean#nombre"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="swing.forms/LoginBean#password"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getNombre" id="swing.forms/LoginBean#getNombre()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassword" id="swing.forms/LoginBean#getPassword()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNombre" id="swing.forms/LoginBean#setNombre(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPassword" id="swing.forms/LoginBean#setPassword(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StringToPasswordFieldMapper" location="905,4405" size="236,81" id="swing.forms/StringToPasswordFieldMapper" runTimeClassModel="createEditorComponent()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,18">
+      <children xsi:type="editmodel:MethodEditModel" name="createEditorComponent" id="swing.forms/StringToPasswordFieldMapper#createEditorComponent()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="swing.views" location="439,4644" size="112,60" id="swing.views"/>
+  <children xsi:type="editmodel:ClassEditModel" name="BackButtonNavgationListener" location="1033,3333" size="229,207" id="swing.views/BackButtonNavgationListener" runTimeClassModel="appController,panelPrevio,getAppController(),actionPerformed(Ljava.awt.event.ActionEvent;),BackButtonNavgationListener(Lproceso.AppController;Lswing.views.FestivalAppPanel;),setAppController(Lproceso.AppController;),getPanelPrevio(),setPanelPrevio(Lswing.views.FestivalAppPanel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.views/BackButtonNavgationListener#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelPrevio" id="swing.views/BackButtonNavgationListener#panelPrevio"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,108">
+      <children xsi:type="editmodel:MethodEditModel" name="BackButtonNavgationListener" id="swing.views/BackButtonNavgationListener#BackButtonNavgationListener(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="swing.views/BackButtonNavgationListener#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.views/BackButtonNavgationListener#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPanelPrevio" id="swing.views/BackButtonNavgationListener#getPanelPrevio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.views/BackButtonNavgationListener#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPanelPrevio" id="swing.views/BackButtonNavgationListener#setPanelPrevio(Lswing.views.FestivalAppPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CloseFestivalListener" location="1312,3333" size="177,261" id="swing.views/CloseFestivalListener" runTimeClassModel="getView(),windowDeactivated(Ljava.awt.event.WindowEvent;),windowDeiconified(Ljava.awt.event.WindowEvent;),windowClosing(Ljava.awt.event.WindowEvent;),windowClosed(Ljava.awt.event.WindowEvent;),windowIconified(Ljava.awt.event.WindowEvent;),view,windowActivated(Ljava.awt.event.WindowEvent;),CloseFestivalListener(Ljavax.swing.JFrame;),windowOpened(Ljava.awt.event.WindowEvent;),setView(Ljavax.swing.JFrame;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="view" id="swing.views/CloseFestivalListener#view"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,180">
+      <children xsi:type="editmodel:MethodEditModel" name="CloseFestivalListener" id="swing.views/CloseFestivalListener#CloseFestivalListener(Ljavax.swing.JFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getView" id="swing.views/CloseFestivalListener#getView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setView" id="swing.views/CloseFestivalListener#setView(Ljavax.swing.JFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowActivated" id="swing.views/CloseFestivalListener#windowActivated(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosed" id="swing.views/CloseFestivalListener#windowClosed(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="swing.views/CloseFestivalListener#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowDeactivated" id="swing.views/CloseFestivalListener#windowDeactivated(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowDeiconified" id="swing.views/CloseFestivalListener#windowDeiconified(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowIconified" id="swing.views/CloseFestivalListener#windowIconified(Ljava.awt.event.WindowEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowOpened" id="swing.views/CloseFestivalListener#windowOpened(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FestivalUserBar" location="693,4094" size="177,189" id="swing.views/FestivalUserBar" runTimeClassModel="appController,FestivalUserBar(Lproceso.AppController;Ldatos.Usuario;),setUsuarioActual(Ldatos.Usuario;),getAppController(),setAppController(Lproceso.AppController;),usuarioActual,getUsuarioActual()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.views/FestivalUserBar#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuarioActual" id="swing.views/FestivalUserBar#usuarioActual"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,90">
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalUserBar" id="swing.views/FestivalUserBar#FestivalUserBar(Lproceso.AppController;Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.views/FestivalUserBar#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarioActual" id="swing.views/FestivalUserBar#getUsuarioActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.views/FestivalUserBar#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuarioActual" id="swing.views/FestivalUserBar#setUsuarioActual(Ldatos.Usuario;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FestivalView" location="50,4094" size="188,243" id="swing.views/FestivalView" runTimeClassModel="setPnlUsuario(Lswing.views.FestivalUserBar;),panelActivo,appController,pnlUsuario,getAppController(),setAppController(Lproceso.AppController;),getPanelActivo(),FestivalView(Lproceso.AppController;Lswing.views.FestivalAppPanel;),setPanelActivo(Lswing.views.FestivalAppPanel;),getPnlUsuario()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="165,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.views/FestivalView#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelActivo" id="swing.views/FestivalView#panelActivo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pnlUsuario" id="swing.views/FestivalView#pnlUsuario"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalView" id="swing.views/FestivalView#FestivalView(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.views/FestivalView#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPanelActivo" id="swing.views/FestivalView#getPanelActivo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPnlUsuario" id="swing.views/FestivalView#getPnlUsuario()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.views/FestivalView#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPanelActivo" id="swing.views/FestivalView#setPanelActivo(Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPnlUsuario" id="swing.views/FestivalView#setPnlUsuario(Lswing.views.FestivalUserBar;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LoginPanelActionListiner" location="1112,4094" size="202,153" id="swing.views/LoginPanelActionListiner" runTimeClassModel="getLoginPanel(),LoginPanelActionListiner(Lswing.views.LoginPanel;),actionPerformed(Ljava.awt.event.ActionEvent;),setLoginPanel(Lswing.views.LoginPanel;),loginPanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="loginPanel" id="swing.views/LoginPanelActionListiner#loginPanel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,72">
+      <children xsi:type="editmodel:MethodEditModel" name="LoginPanelActionListiner" id="swing.views/LoginPanelActionListiner#LoginPanelActionListiner(Lswing.views.LoginPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="swing.views/LoginPanelActionListiner#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLoginPanel" id="swing.views/LoginPanelActionListiner#getLoginPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLoginPanel" id="swing.views/LoginPanelActionListiner#setLoginPanel(Lswing.views.LoginPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RegistroUsuarioListener" location="1364,4094" size="193,153" id="swing.views/RegistroUsuarioListener" runTimeClassModel="getLoginPanel(),actionPerformed(Ljava.awt.event.ActionEvent;),RegistroUsuarioListener(Lswing.views.LoginPanel;),setLoginPanel(Lswing.views.LoginPanel;),loginPanel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="loginPanel" id="swing.views/RegistroUsuarioListener#loginPanel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,72">
+      <children xsi:type="editmodel:MethodEditModel" name="RegistroUsuarioListener" id="swing.views/RegistroUsuarioListener#RegistroUsuarioListener(Lswing.views.LoginPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="swing.views/RegistroUsuarioListener#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLoginPanel" id="swing.views/RegistroUsuarioListener#getLoginPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLoginPanel" id="swing.views/RegistroUsuarioListener#setLoginPanel(Lswing.views.LoginPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VotarTableModel" location="259,3554" size="222,315" id="swing.editors/VotarTableModel" runTimeClassModel="isCellEditable(II),isPermitirEdicion(),getValueAt(II),setPermitirEdicion(Z),updateData(),getColumnCount(),puntuaciones,setValueAt(Ljava.lang.Object;II),permitirEdicion,getPuntuaciones(),getRowCount(),getColumnClass(I),getColumnName(I),VotarTableModel(Lproceso.AppController;Ldatos.Votacion;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="permitirEdicion" id="swing.editors/VotarTableModel#permitirEdicion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="puntuaciones" id="swing.editors/VotarTableModel#puntuaciones"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,216">
+      <children xsi:type="editmodel:MethodEditModel" name="VotarTableModel" id="swing.editors/VotarTableModel#VotarTableModel(Lproceso.AppController;Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnClass" id="swing.editors/VotarTableModel#getColumnClass(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/VotarTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/VotarTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntuaciones" id="swing.editors/VotarTableModel#getPuntuaciones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/VotarTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/VotarTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCellEditable" id="swing.editors/VotarTableModel#isCellEditable(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPermitirEdicion" id="swing.editors/VotarTableModel#isPermitirEdicion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPermitirEdicion" id="swing.editors/VotarTableModel#setPermitirEdicion(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValueAt" id="swing.editors/VotarTableModel#setValueAt(Ljava.lang.Object;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/VotarTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.editors/FestivalSingleTableModel&lt;-swing.editors/VotarTableModel" source="//@children.24" target="//@children.25/@sourceConnections.0" targetEnd="//@children.24/@sourceConnections.0/@children.1" sourceEnd="//@children.24/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="234,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ResultadoTableModel" location="50,3554" size="179,171" id="swing.editors/ResultadoTableModel" runTimeClassModel="getColumnCount(),getValueAt(II),getRowCount(),updateData(),getColumnName(I),ResultadoTableModel(Lproceso.AppController;Ldatos.Votacion;Ldatos.ETipoUsuario;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,108">
+      <children xsi:type="editmodel:MethodEditModel" name="ResultadoTableModel" id="swing.editors/ResultadoTableModel#ResultadoTableModel(Lproceso.AppController;Ldatos.Votacion;Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/ResultadoTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/ResultadoTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/ResultadoTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/ResultadoTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/ResultadoTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.24/@sourceConnections.0" autoLocated="true" id="swing.editors/FestivalSingleTableModel&lt;-swing.editors/ResultadoTableModel" source="//@children.25" target="//@children.26" targetEnd="//@children.25/@sourceConnections.0/@children.1" sourceEnd="//@children.25/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,171" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.25/@sourceConnections.0" name="FestivalSingleTableModel" location="137,3333" size="234,171" id="swing.editors/FestivalSingleTableModel" runTimeClassModel="appController,getAppController(),setAppController(Lproceso.AppController;),getData(),data,updateData()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.editors/FestivalSingleTableModel#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="data" id="swing.editors/FestivalSingleTableModel#data"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.editors/FestivalSingleTableModel#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getData" id="swing.editors/FestivalSingleTableModel#getData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.editors/FestivalSingleTableModel#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/FestivalSingleTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UsuarioTableModel" location="415,2187" size="164,171" id="swing.editors/UsuarioTableModel" runTimeClassModel="getColumnCount(),UsuarioTableModel(Lproceso.AppController;),getValueAt(II),getRowCount(),updateData(),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,108">
+      <children xsi:type="editmodel:MethodEditModel" name="UsuarioTableModel" id="swing.editors/UsuarioTableModel#UsuarioTableModel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/UsuarioTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/UsuarioTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/UsuarioTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/UsuarioTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/UsuarioTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.editors/FestivalListTableModel&lt;-swing.editors/UsuarioTableModel" source="//@children.27" target="//@children.30/@sourceConnections.0" targetEnd="//@children.27/@sourceConnections.0/@children.1" sourceEnd="//@children.27/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SelectPeliculaTableModel" location="197,2408" size="208,243" id="swing.editors/SelectPeliculaTableModel" runTimeClassModel="isCellEditable(II),getColumnCount(),toggleSelection(Z),setSelected(Ljava.util.ArrayList;),getValueAt(II),getSelected(),SelectPeliculaTableModel(Lproceso.AppController;),setValueAt(Ljava.lang.Object;II),getColumnClass(I),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,180">
+      <children xsi:type="editmodel:MethodEditModel" name="SelectPeliculaTableModel" id="swing.editors/SelectPeliculaTableModel#SelectPeliculaTableModel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnClass" id="swing.editors/SelectPeliculaTableModel#getColumnClass(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/SelectPeliculaTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/SelectPeliculaTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelected" id="swing.editors/SelectPeliculaTableModel#getSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/SelectPeliculaTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCellEditable" id="swing.editors/SelectPeliculaTableModel#isCellEditable(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSelected" id="swing.editors/SelectPeliculaTableModel#setSelected(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValueAt" id="swing.editors/SelectPeliculaTableModel#setValueAt(Ljava.lang.Object;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toggleSelection" id="swing.editors/SelectPeliculaTableModel#toggleSelection(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.editors/PeliculaTableModel&lt;-swing.editors/SelectPeliculaTableModel" source="//@children.28" target="//@children.32" targetEnd="//@children.28/@sourceConnections.0/@children.1" sourceEnd="//@children.28/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.30/@sourceConnections.0" name="FestivalListTableModel" location="295,1966" size="215,171" id="swing.editors/FestivalListTableModel" runTimeClassModel="appController,getAppController(),setAppController(Lproceso.AppController;),getData(),data,updateData()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.editors/FestivalListTableModel#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="data" id="swing.editors/FestivalListTableModel#data"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.editors/FestivalListTableModel#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getData" id="swing.editors/FestivalListTableModel#getData()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.editors/FestivalListTableModel#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/FestivalListTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DniTableModel" location="50,2187" size="137,171" id="swing.editors/DniTableModel" runTimeClassModel="getColumnCount(),getValueAt(II),getRowCount(),DniTableModel(Lproceso.AppController;),updateData(),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,108">
+      <children xsi:type="editmodel:MethodEditModel" name="DniTableModel" id="swing.editors/DniTableModel#DniTableModel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/DniTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/DniTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/DniTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/DniTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/DniTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.32/@sourceConnections.0 //@children.27/@sourceConnections.0 //@children.31/@sourceConnections.0" autoLocated="true" id="swing.editors/FestivalListTableModel&lt;-swing.editors/DniTableModel" source="//@children.30" target="//@children.29" targetEnd="//@children.30/@sourceConnections.0/@children.1" sourceEnd="//@children.30/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,171" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VotacionTableModel" location="609,2187" size="171,171" id="swing.editors/VotacionTableModel" runTimeClassModel="getColumnCount(),VotacionTableModel(Lproceso.AppController;),getValueAt(II),getRowCount(),updateData(),getColumnName(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,108">
+      <children xsi:type="editmodel:MethodEditModel" name="VotacionTableModel" id="swing.editors/VotacionTableModel#VotacionTableModel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/VotacionTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/VotacionTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/VotacionTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/VotacionTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/VotacionTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.editors/FestivalListTableModel&lt;-swing.editors/VotacionTableModel" source="//@children.31" target="//@children.30/@sourceConnections.0" targetEnd="//@children.31/@sourceConnections.0/@children.1" sourceEnd="//@children.31/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.28/@sourceConnections.0" name="PeliculaTableModel" location="217,2187" size="168,171" id="swing.editors/PeliculaTableModel" runTimeClassModel="getColumnCount(),getValueAt(II),getRowCount(),updateData(),getColumnName(I),PeliculaTableModel(Lproceso.AppController;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,108">
+      <children xsi:type="editmodel:MethodEditModel" name="PeliculaTableModel" id="swing.editors/PeliculaTableModel#PeliculaTableModel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnCount" id="swing.editors/PeliculaTableModel#getColumnCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColumnName" id="swing.editors/PeliculaTableModel#getColumnName(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRowCount" id="swing.editors/PeliculaTableModel#getRowCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValueAt" id="swing.editors/PeliculaTableModel#getValueAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/PeliculaTableModel#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.editors/FestivalListTableModel&lt;-swing.editors/PeliculaTableModel" source="//@children.32" target="//@children.30/@sourceConnections.0" targetEnd="//@children.32/@sourceConnections.0/@children.1" sourceEnd="//@children.32/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PeliculaForm" location="50,961" size="127,153" id="swing.forms/PeliculaForm" runTimeClassModel="getValue(),isValid(Ldatos.Pelicula;),PeliculaForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;),value,setValue(Ldatos.Pelicula;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="swing.forms/PeliculaForm#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,72">
+      <children xsi:type="editmodel:MethodEditModel" name="PeliculaForm" id="swing.forms/PeliculaForm#PeliculaForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.forms/PeliculaForm#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="swing.forms/PeliculaForm#isValid(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.forms/PeliculaForm#setValue(Ldatos.Pelicula;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.44/@sourceConnections.0 //@children.40/@sourceConnections.0" autoLocated="true" id="swing.forms/NavigableFormOf&lt;-swing.forms/PeliculaForm" source="//@children.33" target="//@children.43" targetEnd="//@children.33/@sourceConnections.0/@children.1" sourceEnd="//@children.33/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,315" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.45/@sourceConnections.0" name="FestivalAppPanel" location="738,285" size="187,189" id="swing.views/FestivalAppPanel" runTimeClassModel="appController,panelPrevio,getAppController(),setAppController(Lproceso.AppController;),getPanelPrevio(),setPanelPrevio(Lswing.views.FestivalAppPanel;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.views/FestivalAppPanel#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelPrevio" id="swing.views/FestivalAppPanel#panelPrevio"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,90">
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.views/FestivalAppPanel#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPanelPrevio" id="swing.views/FestivalAppPanel#getPanelPrevio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.views/FestivalAppPanel#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPanelPrevio" id="swing.views/FestivalAppPanel#setPanelPrevio(Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="swing.views/FestivalAppPanel#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.components/FestivalPanel&lt;-swing.views/FestivalAppPanel" source="//@children.34" target="//@children.41" targetEnd="//@children.34/@sourceConnections.0/@children.1" sourceEnd="//@children.34/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AdmUsuariosPanel" location="860,596" size="162,81" id="swing.views/AdmUsuariosPanel" runTimeClassModel="AdmUsuariosPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AdmUsuariosPanel" id="swing.views/AdmUsuariosPanel#AdmUsuariosPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/AdmUsuariosPanel" source="//@children.35" target="//@children.45/@sourceConnections.0" targetEnd="//@children.35/@sourceConnections.0/@children.1" sourceEnd="//@children.35/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LoginPanel" location="1396,596" size="183,153" id="swing.views/LoginPanel" runTimeClassModel="getFormLogin(),getLblErrors(),LoginPanel(Lproceso.AppController;),lblErrors,formLogin">
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="formLogin" id="swing.views/LoginPanel#formLogin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblErrors" id="swing.views/LoginPanel#lblErrors"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,54">
+      <children xsi:type="editmodel:MethodEditModel" name="LoginPanel" id="swing.views/LoginPanel#LoginPanel(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFormLogin" id="swing.views/LoginPanel#getFormLogin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLblErrors" id="swing.views/LoginPanel#getLblErrors()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/LoginPanel" source="//@children.36" target="//@children.45/@sourceConnections.0" targetEnd="//@children.36/@sourceConnections.0/@children.1" sourceEnd="//@children.36/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UserPanel" location="1259,596" size="107,81" id="swing.views/UserPanel" runTimeClassModel="UserPanel(Lproceso.AppController;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18">
+      <children xsi:type="editmodel:MethodEditModel" name="UserPanel" id="swing.views/UserPanel#UserPanel(Lproceso.AppController;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/UserPanel" source="//@children.37" target="//@children.45/@sourceConnections.0" targetEnd="//@children.37/@sourceConnections.0/@children.1" sourceEnd="//@children.37/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AdmVotacionesPanel" location="1052,596" size="177,81" id="swing.views/AdmVotacionesPanel" runTimeClassModel="AdmVotacionesPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AdmVotacionesPanel" id="swing.views/AdmVotacionesPanel#AdmVotacionesPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/AdmVotacionesPanel" source="//@children.38" target="//@children.45/@sourceConnections.0" targetEnd="//@children.38/@sourceConnections.0/@children.1" sourceEnd="//@children.38/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AdminPanelPrincipal" location="457,596" size="177,135" id="swing.views/AdminPanelPrincipal" runTimeClassModel="getPanelActual(),setPanelActual(Ljavax.swing.JPanel;),AdminPanelPrincipal(Lproceso.AppController;),panelActual">
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="panelActual" id="swing.views/AdminPanelPrincipal#panelActual"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,54">
+      <children xsi:type="editmodel:MethodEditModel" name="AdminPanelPrincipal" id="swing.views/AdminPanelPrincipal#AdminPanelPrincipal(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPanelActual" id="swing.views/AdminPanelPrincipal#getPanelActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPanelActual" id="swing.views/AdminPanelPrincipal#setPanelActual(Ljavax.swing.JPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/AdminPanelPrincipal" source="//@children.39" target="//@children.45/@sourceConnections.0" targetEnd="//@children.39/@sourceConnections.0/@children.1" sourceEnd="//@children.39/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VotacionForm" location="412,961" size="130,153" id="swing.forms/VotacionForm" runTimeClassModel="getValue(),isValid(Ldatos.Votacion;),VotacionForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;),value,setValue(Ldatos.Votacion;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="swing.forms/VotacionForm#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,72">
+      <children xsi:type="editmodel:MethodEditModel" name="VotacionForm" id="swing.forms/VotacionForm#VotacionForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.forms/VotacionForm#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="swing.forms/VotacionForm#isValid(Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.forms/VotacionForm#setValue(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.forms/NavigableFormOf&lt;-swing.forms/VotacionForm" source="//@children.40" target="//@children.33/@sourceConnections.0" targetEnd="//@children.40/@sourceConnections.0/@children.1" sourceEnd="//@children.40/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.34/@sourceConnections.0" name="FestivalPanel" location="760,50" size="144,171" id="swing.components/FestivalPanel" runTimeClassModel="setColorGradient2(Ljava.awt.Color;),colorGradient2,colorGradient1,getColorGradient1(),getColorGradient2(),setColorGradient1(Ljava.awt.Color;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="colorGradient1" id="swing.components/FestivalPanel#colorGradient1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="colorGradient2" id="swing.components/FestivalPanel#colorGradient2"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getColorGradient1" id="swing.components/FestivalPanel#getColorGradient1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColorGradient2" id="swing.components/FestivalPanel#getColorGradient2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColorGradient1" id="swing.components/FestivalPanel#setColorGradient1(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColorGradient2" id="swing.components/FestivalPanel#setColorGradient2(Ljava.awt.Color;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AdmPeliculasPanel" location="664,596" size="166,81" id="swing.views/AdmPeliculasPanel" runTimeClassModel="AdmPeliculasPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AdmPeliculasPanel" id="swing.views/AdmPeliculasPanel#AdmPeliculasPanel(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.views/AdmPeliculasPanel" source="//@children.42" target="//@children.45/@sourceConnections.0" targetEnd="//@children.42/@sourceConnections.0/@children.1" sourceEnd="//@children.42/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.33/@sourceConnections.0" name="NavigableFormOf" location="50,596" size="182,315" id="swing.forms/NavigableFormOf" runTimeClassModel="backButton,setPanelPrincipal(Ljavax.swing.JPanel;),getBackButton(),actionButton,tipoConsulta,setTipoConsulta(Ldao.IFestivalDAO.TipoConsulta;),NavigableFormOf(Lproceso.AppController;Lswing.views.FestivalAppPanel;),panelPrincipal,getActionButton(),propmt(Ldao.IFestivalDAO.TipoConsulta;LB;),getTipoConsulta(),removeFormListener(Lswing.eventos.FormChangeListener;),addFormListener(Lswing.eventos.FormChangeListener;),getPanelPrincipal()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="actionButton" id="swing.forms/NavigableFormOf#actionButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="backButton" id="swing.forms/NavigableFormOf#backButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panelPrincipal" id="swing.forms/NavigableFormOf#panelPrincipal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipoConsulta" id="swing.forms/NavigableFormOf#tipoConsulta"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,180">
+      <children xsi:type="editmodel:MethodEditModel" name="NavigableFormOf" id="swing.forms/NavigableFormOf#NavigableFormOf(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFormListener" id="swing.forms/NavigableFormOf#addFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActionButton" id="swing.forms/NavigableFormOf#getActionButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBackButton" id="swing.forms/NavigableFormOf#getBackButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPanelPrincipal" id="swing.forms/NavigableFormOf#getPanelPrincipal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTipoConsulta" id="swing.forms/NavigableFormOf#getTipoConsulta()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propmt" id="swing.forms/NavigableFormOf#propmt(Ldao.IFestivalDAO.TipoConsulta;LB;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeFormListener" id="swing.forms/NavigableFormOf#removeFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPanelPrincipal" id="swing.forms/NavigableFormOf#setPanelPrincipal(Ljavax.swing.JPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTipoConsulta" id="swing.forms/NavigableFormOf#setTipoConsulta(Ldao.IFestivalDAO.TipoConsulta;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.forms/NavigableFormOf" source="//@children.43" target="//@children.45/@sourceConnections.0" targetEnd="//@children.43/@sourceConnections.0/@children.1" sourceEnd="//@children.43/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.forms/IFormOf&lt;-swing.forms/NavigableFormOf" source="//@children.43" target="//@children.47" targetEnd="//@children.43/@sourceConnections.1/@children.1" sourceEnd="//@children.43/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,185"/>
+      <bendpoints location="312,521" secondRelativeDimension="45,336" firstRelativeDimension="30,-45"/>
+      <bendpoints location="322,521" secondRelativeDimension="53,336" firstRelativeDimension="40,-55"/>
+      <bendpoints location="322,210" secondRelativeDimension="14,25" firstRelativeDimension="90,-333"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RegistroUsuarioForm" location="207,961" size="175,153" id="swing.forms/RegistroUsuarioForm" runTimeClassModel="getValue(),RegistroUsuarioForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;),setValue(Ldatos.Usuario;),value,isValid(Ldatos.Usuario;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="swing.forms/RegistroUsuarioForm#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,72">
+      <children xsi:type="editmodel:MethodEditModel" name="RegistroUsuarioForm" id="swing.forms/RegistroUsuarioForm#RegistroUsuarioForm(Lproceso.AppController;Lswing.views.FestivalAppPanel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.forms/RegistroUsuarioForm#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="swing.forms/RegistroUsuarioForm#isValid(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.forms/RegistroUsuarioForm#setValue(Ldatos.Usuario;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.forms/NavigableFormOf&lt;-swing.forms/RegistroUsuarioForm" source="//@children.44" target="//@children.33/@sourceConnections.0" targetEnd="//@children.44/@sourceConnections.0/@children.1" sourceEnd="//@children.44/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,76"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FestivalEditor" location="262,596" size="165,207" id="swing.editors/FestivalEditor" runTimeClassModel="removeChangeListener(Lswing.eventos.FormChangeListener;),editForm,setEditForm(Lswing.forms.IFormOf;),FestivalEditor(Lproceso.AppController;Lswing.forms.IFormOf;Lswing.editors.FestivalListTableModel;),getEditForm(),updateData(),actualizarDatos(),addChangeListener(Lswing.eventos.FormChangeListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="editForm" id="swing.editors/FestivalEditor#editForm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FestivalEditor" id="swing.editors/FestivalEditor#FestivalEditor(Lproceso.AppController;Lswing.forms.IFormOf;Lswing.editors.FestivalListTableModel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actualizarDatos" id="swing.editors/FestivalEditor#actualizarDatos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addChangeListener" id="swing.editors/FestivalEditor#addChangeListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEditForm" id="swing.editors/FestivalEditor#getEditForm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeChangeListener" id="swing.editors/FestivalEditor#removeChangeListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEditForm" id="swing.editors/FestivalEditor#setEditForm(Lswing.forms.IFormOf;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateData" id="swing.editors/FestivalEditor#updateData()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.43/@sourceConnections.0 //@children.39/@sourceConnections.0 //@children.42/@sourceConnections.0 //@children.35/@sourceConnections.0 //@children.38/@sourceConnections.0 //@children.37/@sourceConnections.0 //@children.36/@sourceConnections.0" autoLocated="true" id="swing.views/FestivalAppPanel&lt;-swing.editors/FestivalEditor" source="//@children.45" target="//@children.34" targetEnd="//@children.45/@sourceConnections.0/@children.1" sourceEnd="//@children.45/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,189" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DniPrompt" location="50,285" size="177,261" id="swing.forms/DniPrompt" runTimeClassModel="getValue(),appController,getAppController(),setAppController(Lproceso.AppController;),isValid(Ldatos.Dni;),value,setValue(Ldatos.Dni;),removeFormListener(Lswing.eventos.FormChangeListener;),propmt(Ldao.IFestivalDAO.TipoConsulta;Ldatos.Dni;),addFormListener(Lswing.eventos.FormChangeListener;),DniPrompt(Lproceso.AppController;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="appController" id="swing.forms/DniPrompt#appController"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="swing.forms/DniPrompt#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,162">
+      <children xsi:type="editmodel:MethodEditModel" name="DniPrompt" id="swing.forms/DniPrompt#DniPrompt(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addFormListener" id="swing.forms/DniPrompt#addFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAppController" id="swing.forms/DniPrompt#getAppController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.forms/DniPrompt#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="swing.forms/DniPrompt#isValid(Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propmt" id="swing.forms/DniPrompt#propmt(Ldao.IFestivalDAO.TipoConsulta;Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeFormListener" id="swing.forms/DniPrompt#removeFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAppController" id="swing.forms/DniPrompt#setAppController(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.forms/DniPrompt#setValue(Ldatos.Dni;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="swing.forms/IFormOf&lt;-swing.forms/DniPrompt" source="//@children.46" target="//@children.47" targetEnd="//@children.46/@sourceConnections.0/@children.1" sourceEnd="//@children.46/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,185" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.46/@sourceConnections.0 //@children.43/@sourceConnections.1" name="IFormOf" location="129,50" size="152,185" id="swing.forms/IFormOf" runTimeClassModel="getValue(),isValid(LB;),setValue(LB;),propmt(Ldao.IFestivalDAO.TipoConsulta;LB;),removeFormListener(Lswing.eventos.FormChangeListener;),addFormListener(Lswing.eventos.FormChangeListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,108">
+      <children xsi:type="editmodel:MethodEditModel" name="addFormListener" id="swing.forms/IFormOf#addFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="swing.forms/IFormOf#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="swing.forms/IFormOf#isValid(LB;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="propmt" id="swing.forms/IFormOf#propmt(Ldao.IFestivalDAO.TipoConsulta;LB;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeFormListener" id="swing.forms/IFormOf#removeFormListener(Lswing.eventos.FormChangeListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="swing.forms/IFormOf#setValue(LB;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Pelicula" location="557,1367" size="169,225" id="datos/Pelicula">
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="actores" id="datos/Pelicula#actores"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="director" id="datos/Pelicula#director"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="titulo" id="datos/Pelicula#titulo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Pelicula" id="datos/Pelicula#Pelicula(Ljava.lang.String;Ljava.lang.String;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Pelicula" id="datos/Pelicula#Pelicula()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Pelicula" id="datos/Pelicula#Pelicula(Ljava.lang.String;Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActoresAsString" id="datos/Pelicula#getActoresAsString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setActoresAsString" id="datos/Pelicula#setActoresAsString(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="datos/Pelicula#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/DBObject&lt;-datos/Pelicula" source="//@children.48" target="//@children.49/@sourceConnections.0" targetEnd="//@children.48/@sourceConnections.0/@children.1" sourceEnd="//@children.48/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Dni" location="50,1367" size="109,207" id="datos/Dni" runTimeClassModel="getValue(),Dni(Ljava.lang.String;),setValue(Ljava.lang.String;),Dni(),value,isValid(),isValidLetra(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="datos/Dni#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Dni" id="datos/Dni#Dni()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Dni" id="datos/Dni#Dni(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="datos/Dni#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValid" id="datos/Dni#isValid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isValidLetra" id="datos/Dni#isValidLetra()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="datos/Dni#setValue(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="datos/Dni#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.52/@sourceConnections.0 //@children.51/@sourceConnections.0 //@children.48/@sourceConnections.0 //@children.53/@sourceConnections.0 //@children.54/@sourceConnections.0" autoLocated="true" id="dao/DBObject&lt;-datos/Dni" source="//@children.49" target="//@children.50" targetEnd="//@children.49/@sourceConnections.0/@children.1" sourceEnd="//@children.49/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,153" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.49/@sourceConnections.0" name="DBObject" location="511,1164" size="102,153" id="dao/DBObject">
+    <children xsi:type="editmodel:CompartmentEditModel" size="53,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="dao/DBObject#id"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,72">
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="dao/DBObject#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" id="dao/DBObject#getId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="dao/DBObject#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="dao/DBObject#setId(J)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Votacion" location="345,1367" size="182,549" id="datos/Votacion">
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="fechaCreacion" id="datos/Votacion#fechaCreacion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fechaDeFin" id="datos/Votacion#fechaDeFin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="datos/Votacion#nombre"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="peliculas" id="datos/Votacion#peliculas"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="permitirVotos" id="datos/Votacion#permitirVotos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="resultado" id="datos/Votacion#resultado"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="votacionActiva" id="datos/Votacion#votacionActiva"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,360">
+      <children xsi:type="editmodel:MethodEditModel" name="Votacion" id="datos/Votacion#Votacion(Ljava.lang.String;[Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Votacion" id="datos/Votacion#Votacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Votacion" id="datos/Votacion#Votacion(Ljava.lang.String;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Votacion" id="datos/Votacion#Votacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFechaCreacion" id="datos/Votacion#getFechaCreacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFechaDeFin" id="datos/Votacion#getFechaDeFin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNombre" id="datos/Votacion#getNombre()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeliculas" id="datos/Votacion#getPeliculas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getResultado" id="datos/Votacion#getResultado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="haVotado" id="datos/Votacion#haVotado(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isPermitirVotos" id="datos/Votacion#isPermitirVotos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isTermindao" id="datos/Votacion#isTermindao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isVotacionActiva" id="datos/Votacion#isVotacionActiva()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFechaCreacion" id="datos/Votacion#setFechaCreacion(Ljava.sql.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFechaDeFin" id="datos/Votacion#setFechaDeFin(Ljava.sql.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNombre" id="datos/Votacion#setNombre(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPeliculas" id="datos/Votacion#setPeliculas(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPermitirVotos" id="datos/Votacion#setPermitirVotos(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacionActiva" id="datos/Votacion#setVotacionActiva(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="terminarVotacion" id="datos/Votacion#terminarVotacion()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/DBObject&lt;-datos/Votacion" source="//@children.51" target="//@children.49/@sourceConnections.0" targetEnd="//@children.51/@sourceConnections.0/@children.1" sourceEnd="//@children.51/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Usuario" location="189,1367" size="126,171" id="datos/Usuario">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="dni" id="datos/Usuario#dni"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="login" id="datos/Usuario#login"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="datos/Usuario#password"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Usuario" id="datos/Usuario#Usuario(Ljava.lang.String;Ljava.lang.String;Ldatos.Dni;Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Usuario" id="datos/Usuario#Usuario()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Usuario" id="datos/Usuario#Usuario(Ljava.lang.String;Ljava.lang.String;Ldatos.ETipoUsuario;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/DBObject&lt;-datos/Usuario" source="//@children.52" target="//@children.49/@sourceConnections.0" targetEnd="//@children.52/@sourceConnections.0/@children.1" sourceEnd="//@children.52/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Resultado" location="756,1367" size="222,297" id="datos/Resultado">
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="puntuaciones" id="datos/Resultado#puntuaciones"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="votacion" id="datos/Resultado#votacion"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,198">
+      <children xsi:type="editmodel:MethodEditModel" name="Resultado" id="datos/Resultado#Resultado(Ldatos.Votacion;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Resultado" id="datos/Resultado#Resultado(Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Resultado" id="datos/Resultado#Resultado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntuacionTotalPelicula" id="datos/Resultado#getPuntuacionTotalPelicula(Ldatos.Pelicula;Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntuaciones" id="datos/Resultado#getPuntuaciones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntuacionesDeUsuario" id="datos/Resultado#getPuntuacionesDeUsuario(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacion" id="datos/Resultado#getVotacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="haVotado" id="datos/Resultado#haVotado(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="puntuar" id="datos/Resultado#puntuar(Ldatos.Usuario;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntuaciones" id="datos/Resultado#setPuntuaciones(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacion" id="datos/Resultado#setVotacion(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/DBObject&lt;-datos/Resultado" source="//@children.53" target="//@children.49/@sourceConnections.0" targetEnd="//@children.53/@sourceConnections.0/@children.1" sourceEnd="//@children.53/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Puntuacion" location="1008,1367" size="134,369" id="datos/Puntuacion">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="pelicula" id="datos/Puntuacion#pelicula"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="puntuacion" id="datos/Puntuacion#puntuacion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuario" id="datos/Puntuacion#usuario"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="votacion" id="datos/Puntuacion#votacion"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,234">
+      <children xsi:type="editmodel:MethodEditModel" name="Puntuacion" id="datos/Puntuacion#Puntuacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Puntuacion" id="datos/Puntuacion#Puntuacion(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Puntuacion" id="datos/Puntuacion#Puntuacion(Ldatos.Pelicula;Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Puntuacion" id="datos/Puntuacion#Puntuacion(Ldatos.Pelicula;Ldatos.Usuario;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Puntuacion" id="datos/Puntuacion#Puntuacion(Ldatos.Pelicula;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPelicula" id="datos/Puntuacion#getPelicula()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPuntuacion" id="datos/Puntuacion#getPuntuacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuario" id="datos/Puntuacion#getUsuario()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacion" id="datos/Puntuacion#getVotacion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPelicula" id="datos/Puntuacion#setPelicula(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntuacion" id="datos/Puntuacion#setPuntuacion(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuario" id="datos/Puntuacion#setUsuario(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacion" id="datos/Puntuacion#setVotacion(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/DBObject&lt;-datos/Puntuacion" source="//@children.54" target="//@children.49/@sourceConnections.0" targetEnd="//@children.54/@sourceConnections.0/@children.1" sourceEnd="//@children.54/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DAOMySQL" location="830,2662" size="141,549" id="dao/DAOMySQL" runTimeClassModel="setPelicula(Ldatos.Pelicula;Ldao.IFestivalDAO.TipoConsulta;),getVotacionActual(),getUsuarios(),existeDNI(Ljava.lang.String;),getUsuarios([Ldatos.ETipoUsuario;),set(Ldao.DBObject;Ldao.IFestivalDAO.TipoConsulta;),setUsuario(Ldatos.Usuario;Ldao.IFestivalDAO.TipoConsulta;),borrar(Ldao.DBObject;),borrarVotacion(Ldatos.Votacion;),DAOMySQL(),existePelicula(Ljava.lang.String;),existeUsuario(Ljava.lang.String;),setVotacion(Ldatos.Votacion;Ldao.IFestivalDAO.TipoConsulta;),setPuntuacion(Ldatos.Votacion;Ljava.util.ArrayList;),getVotaciones(),login(Ljava.lang.String;Ljava.lang.String;),getDnis(),getUsuario(Ljava.lang.String;),getVotacion(Ljava.lang.String;),borrarUsuario(Ldatos.Usuario;),setDni(Ldatos.Dni;Ldao.IFestivalDAO.TipoConsulta;),borrarPelicula(Ldatos.Pelicula;),borrarDni(Ldatos.Dni;),existeVotacion(Ljava.lang.String;),getPelicula(Ljava.lang.String;),setVotacionActiva(Ldatos.Votacion;),getPeliculas()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,486">
+      <children xsi:type="editmodel:MethodEditModel" name="DAOMySQL" id="dao/DAOMySQL#DAOMySQL()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrar" id="dao/DAOMySQL#borrar(Ldao.DBObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarDni" id="dao/DAOMySQL#borrarDni(Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarPelicula" id="dao/DAOMySQL#borrarPelicula(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarUsuario" id="dao/DAOMySQL#borrarUsuario(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarVotacion" id="dao/DAOMySQL#borrarVotacion(Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeDNI" id="dao/DAOMySQL#existeDNI(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existePelicula" id="dao/DAOMySQL#existePelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeUsuario" id="dao/DAOMySQL#existeUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeVotacion" id="dao/DAOMySQL#existeVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDnis" id="dao/DAOMySQL#getDnis()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPelicula" id="dao/DAOMySQL#getPelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeliculas" id="dao/DAOMySQL#getPeliculas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuario" id="dao/DAOMySQL#getUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/DAOMySQL#getUsuarios([Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/DAOMySQL#getUsuarios()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacion" id="dao/DAOMySQL#getVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacionActual" id="dao/DAOMySQL#getVotacionActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotaciones" id="dao/DAOMySQL#getVotaciones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="login" id="dao/DAOMySQL#login(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set" id="dao/DAOMySQL#set(Ldao.DBObject;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDni" id="dao/DAOMySQL#setDni(Ldatos.Dni;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPelicula" id="dao/DAOMySQL#setPelicula(Ldatos.Pelicula;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntuacion" id="dao/DAOMySQL#setPuntuacion(Ldatos.Votacion;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuario" id="dao/DAOMySQL#setUsuario(Ldatos.Usuario;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacion" id="dao/DAOMySQL#setVotacion(Ldatos.Votacion;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacionActiva" id="dao/DAOMySQL#setVotacionActiva(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.57/@sourceConnections.0" autoLocated="true" id="dao/IFestivalDAO&lt;-dao/DAOMySQL" source="//@children.55" target="//@children.56" targetEnd="//@children.55/@sourceConnections.0/@children.1" sourceEnd="//@children.55/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,646" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.55/@sourceConnections.0" name="IFestivalDAO" location="926,1966" size="148,646" id="dao/IFestivalDAO">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,468">
+      <children xsi:type="editmodel:MethodEditModel" name="borrar" id="dao/IFestivalDAO#borrar(Ldao.DBObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarDni" id="dao/IFestivalDAO#borrarDni(Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarPelicula" id="dao/IFestivalDAO#borrarPelicula(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarUsuario" id="dao/IFestivalDAO#borrarUsuario(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarVotacion" id="dao/IFestivalDAO#borrarVotacion(Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeDNI" id="dao/IFestivalDAO#existeDNI(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existePelicula" id="dao/IFestivalDAO#existePelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeUsuario" id="dao/IFestivalDAO#existeUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeVotacion" id="dao/IFestivalDAO#existeVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDnis" id="dao/IFestivalDAO#getDnis()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPelicula" id="dao/IFestivalDAO#getPelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeliculas" id="dao/IFestivalDAO#getPeliculas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuario" id="dao/IFestivalDAO#getUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/IFestivalDAO#getUsuarios([Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/IFestivalDAO#getUsuarios()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacion" id="dao/IFestivalDAO#getVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacionActual" id="dao/IFestivalDAO#getVotacionActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotaciones" id="dao/IFestivalDAO#getVotaciones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="login" id="dao/IFestivalDAO#login(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set" id="dao/IFestivalDAO#set(Ldao.DBObject;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDni" id="dao/IFestivalDAO#setDni(Ldatos.Dni;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPelicula" id="dao/IFestivalDAO#setPelicula(Ldatos.Pelicula;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntuacion" id="dao/IFestivalDAO#setPuntuacion(Ldatos.Votacion;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuario" id="dao/IFestivalDAO#setUsuario(Ldatos.Usuario;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacion" id="dao/IFestivalDAO#setVotacion(Ldatos.Votacion;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacionActiva" id="dao/IFestivalDAO#setVotacionActiva(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,91">
+      <children xsi:type="editmodel:EnumerationEditModel" name="TipoConsulta" size="125,89" id="dao/IFestivalDAO$TipoConsulta">
+        <children xsi:type="editmodel:CompartmentEditModel" size="63,36">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="modificar" id="dao/IFestivalDAO$TipoConsulta#modificar%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="insertar" id="dao/IFestivalDAO$TipoConsulta#insertar%"/>
+        </children>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DAOPrueba" location="1001,2662" size="199,621" id="dao/DAOPrueba" runTimeClassModel="setPelicula(Ldatos.Pelicula;Ldao.IFestivalDAO.TipoConsulta;),peliculas,getVotacionActual(),getUsuarios(),existeDNI(Ljava.lang.String;),getUsuarios([Ldatos.ETipoUsuario;),set(Ldao.DBObject;Ldao.IFestivalDAO.TipoConsulta;),setUsuario(Ldatos.Usuario;Ldao.IFestivalDAO.TipoConsulta;),DAOPrueba(Lproceso.AppController;),borrar(Ldao.DBObject;),borrarVotacion(Ldatos.Votacion;),existePelicula(Ljava.lang.String;),existeUsuario(Ljava.lang.String;),setPuntuacion(Ldatos.Votacion;Ljava.util.ArrayList;),dnis,setVotacion(Ldatos.Votacion;Ldao.IFestivalDAO.TipoConsulta;),getVotaciones(),login(Ljava.lang.String;Ljava.lang.String;),getDnis(),getUsuario(Ljava.lang.String;),borrarUsuario(Ldatos.Usuario;),getVotacion(Ljava.lang.String;),setDni(Ldatos.Dni;Ldao.IFestivalDAO.TipoConsulta;),votaciones,borrarDni(Ldatos.Dni;),borrarPelicula(Ldatos.Pelicula;),existeVotacion(Ljava.lang.String;),getPelicula(Ljava.lang.String;),setVotacionActiva(Ldatos.Votacion;),getPeliculas(),usuarios">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="dnis" id="dao/DAOPrueba#dnis"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="peliculas" id="dao/DAOPrueba#peliculas"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usuarios" id="dao/DAOPrueba#usuarios"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="votaciones" id="dao/DAOPrueba#votaciones"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,486">
+      <children xsi:type="editmodel:MethodEditModel" name="DAOPrueba" id="dao/DAOPrueba#DAOPrueba(Lproceso.AppController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrar" id="dao/DAOPrueba#borrar(Ldao.DBObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarDni" id="dao/DAOPrueba#borrarDni(Ldatos.Dni;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarPelicula" id="dao/DAOPrueba#borrarPelicula(Ldatos.Pelicula;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarUsuario" id="dao/DAOPrueba#borrarUsuario(Ldatos.Usuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="borrarVotacion" id="dao/DAOPrueba#borrarVotacion(Ldatos.Votacion;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeDNI" id="dao/DAOPrueba#existeDNI(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existePelicula" id="dao/DAOPrueba#existePelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeUsuario" id="dao/DAOPrueba#existeUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="existeVotacion" id="dao/DAOPrueba#existeVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDnis" id="dao/DAOPrueba#getDnis()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPelicula" id="dao/DAOPrueba#getPelicula(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPeliculas" id="dao/DAOPrueba#getPeliculas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuario" id="dao/DAOPrueba#getUsuario(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/DAOPrueba#getUsuarios()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUsuarios" id="dao/DAOPrueba#getUsuarios([Ldatos.ETipoUsuario;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacion" id="dao/DAOPrueba#getVotacion(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotacionActual" id="dao/DAOPrueba#getVotacionActual()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVotaciones" id="dao/DAOPrueba#getVotaciones()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="login" id="dao/DAOPrueba#login(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set" id="dao/DAOPrueba#set(Ldao.DBObject;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDni" id="dao/DAOPrueba#setDni(Ldatos.Dni;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPelicula" id="dao/DAOPrueba#setPelicula(Ldatos.Pelicula;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPuntuacion" id="dao/DAOPrueba#setPuntuacion(Ldatos.Votacion;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsuario" id="dao/DAOPrueba#setUsuario(Ldatos.Usuario;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacion" id="dao/DAOPrueba#setVotacion(Ldatos.Votacion;Ldao.IFestivalDAO.TipoConsulta;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVotacionActiva" id="dao/DAOPrueba#setVotacionActiva(Ldatos.Votacion;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="dao/IFestivalDAO&lt;-dao/DAOPrueba" source="//@children.57" target="//@children.55/@sourceConnections.0" targetEnd="//@children.57/@sourceConnections.0/@children.1" sourceEnd="//@children.57/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,310"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
