@@ -2,7 +2,7 @@
 
 Final project of **Java Programming**, Web Application Development degree (1st course). 
 
-The application manages Film Festivals. The admin user can create voting of films, and jurors/spectator users can vote their films, until the admin marks the Pool as finished. When the voting have been closed, juror and spectator users are able to view the voting results. Two different categories are shown, the jurors election and the spectators one.
+The application manages Film Festivals. The admin user can create voting of films, and jurors/spectator users can vote their films, until the admin marks the voting as finished. When the voting has been closed, juror and spectator users are able to view the voting results. Two different categories are shown, the jurors election and the spectators one.
 
 ### Features ###
 
@@ -36,6 +36,6 @@ All you need is a running MySQL service in order to run the application
 
 
 Hi, I'm Rubén, a 22 years old software developer / graphic designer from Seville (Spain).
-I build desktop and web Java/.net applications using the latest frameworks such as Hibernate or Spring. I'm also able to do 3D interactive virtual walkthroughs (Architectural visualization) and i can develop video games. At the moment I'm doing a Web Application Development degree at Hermanos Machado College of Seville.
+I build desktop and web Java/.net applications using the latest frameworks such as Hibernate or Spring. I'm also able to do 3D interactive virtual walkthroughs (Architectural visualization) and i can develop video games.
 
 You can see my complete profile/portfolio here: [http://www.rubenvallejogamboa.com/](http://www.rubenvallejogamboa.com/ "www.rubenvallejogamboa.com")
